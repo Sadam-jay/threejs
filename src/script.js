@@ -17,9 +17,6 @@ const planeGeometry = new THREE.PlaneGeometry(1, 1);
 const material = new THREE.MeshBasicMaterial();
 
 material.color = new THREE.Color(0x00ff00);
-// material.transparent = true;
-// material.opacity = 0.5;
-// material.side = THREE.DoubleSide;
 material.fog = true;
 
 const fog = new THREE.Fog(0xffffff, 1, 10);
