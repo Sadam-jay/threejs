@@ -63,7 +63,7 @@ window.addEventListener("resize", () => {
   renderer.setSize(window.innerWidth, window.innerHeight);
 });
 
-// render the scene
+// render the scenes
 const renderloop = () => {
   controls.update();
   renderer.render(scene, camera);
